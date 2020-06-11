@@ -14,22 +14,6 @@
     <script src="mode/javascript/javascript.js"></script>
     <script src="mode/clike/clike.js"></script>
 </head>
-<script>
-    $( document ).ready(function() {
-        var javaCode = CodeMirror.fromTextArea(document.getElementById("javaCode"),
-        {
-            theme: "dracula",
-            matchBrackets: true,
-            mode: "text/x-java",
-        });
-        var DrupiCode = CodeMirror.fromTextArea(document.getElementById("DrupiCode"),
-        {
-            theme: "dracula",
-            matchBrackets: true,
-            mode: "javascript",
-        });
-        DrupiCode.setSize("100%", "155px")
-    })
 </script>
 <style>
 .CodeMirror {
