@@ -1,2 +1,3 @@
 # Srayze-Web
-e
+
+This repository has been discontinued as of 2020.
